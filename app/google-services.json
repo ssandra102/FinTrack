@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "475771069065",
+    "project_id": "fintrack-d05af",
+    "storage_bucket": "fintrack-d05af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475771069065:android:68850940803cbc3e9f1c58",
+        "android_client_info": {
+          "package_name": "com.example.fintrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475771069065-6i8nn0p143k6j0n1s2rulp6in1ejut2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fintrack",
+            "certificate_hash": "7348063b45235b3a2a78825238b0cb1e44a1d0b7"
+          }
+        },
+        {
+          "client_id": "475771069065-vvfq6fk09jc2fqj6had6pmlid3ogp551.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDajSK7dr0bw0pXCs3SgwRX-cJjLqql_eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475771069065-vvfq6fk09jc2fqj6had6pmlid3ogp551.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

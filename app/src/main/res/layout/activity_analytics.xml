@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ResultsActivity">
+
+
+    <TextView
+        android:id="@+id/goToUser"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:drawableRight="@drawable/icons8_user_48"
+        android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/analytics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:text="ANALYTICS"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/analytics"
+            android:gravity="center"
+            android:text="@string/summary"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL1"
+        android:layout_below="@+id/summary"
+        android:weightSum="2">
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="70dp"
+        android:text="DAYS :"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/daysD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/summary"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="70dp"
+        android:text=" "
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL2"
+        android:layout_below="@+id/LL1"
+        android:weightSum="2">
+    <TextView
+        android:id="@+id/months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="MONTHS :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/monthsM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL3"
+        android:layout_below="@+id/LL2"
+        android:weightSum="2">
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="TOTAL :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/totalT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/learn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Learn More"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:drawablePadding="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/btnFetch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:padding="10dp"
+            android:text="REFRESH"
+            android:textSize="18dp"
+            app:tint="@color/black" />
+
+        <Button
+            android:id="@+id/gotoResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:padding="10dp"
+            android:text="RESULTS"
+            android:textSize="18dp"
+            app:tint="@color/black" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:padding="10dp"
+            android:text="LOGOUT"
+            android:textSize="18dp"
+            app:tint="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>
+
