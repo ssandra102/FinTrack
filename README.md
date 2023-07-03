@@ -2,7 +2,7 @@
 Android application made in Java, for FinTrack: a cash flow management app. It has 6 pages(see images below). Classifying itemised bills into several broad categories to analyse and further take better financial decisions to monitor one's spending habits, specifically designed for Indian market. 
 
 # Application
-On the user page, user has 2 choices: upload image from device gallery or capture a new image. This image is used for further processed by python OCR and text classification(see [ML API](url)). The cumulative price after classification is displayed in the results page and analytics page.
+On the user page, user has 2 choices: upload image from device gallery or capture a new image. This image is used for further processed by python OCR and text classification(see [ML API](https://github.com/ssandra102/Machine-Learning-API)). The cumulative price after classification is displayed in the results page and analytics page.
 
 # Screenshots
 <p align="left">
